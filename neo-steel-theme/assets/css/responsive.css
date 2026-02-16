@@ -1,0 +1,589 @@
+/* ==================================================
+   Responsive Design - Mobile, Tablet, Desktop
+   ================================================== */
+
+/* ==================================================
+   Tablet & Below (992px)
+   ================================================== */
+
+@media (max-width: 992px) {
+    /* Hero Section */
+    .hero-title {
+        font-size: 3rem;
+    }
+    
+    .hero-tagline {
+        font-size: 1.5rem;
+    }
+    
+    .hero-subtitle {
+        font-size: 1.125rem;
+    }
+    
+    /* Stats */
+    .stat-number {
+        font-size: 3rem;
+    }
+    
+    /* Services Grid */
+    .services-grid,
+    .services-container {
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    }
+    
+    /* Projects Grid */
+    .projects-grid {
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    }
+    
+    /* Mission/Vision */
+    .mission-vision-grid {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+    
+    /* Project Layout */
+    .project-layout {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+    
+    .project-main {
+        padding-right: 0;
+    }
+    
+    /* Form Row */
+    .form-row {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+}
+
+/* ==================================================
+   Mobile & Small Tablets (768px)
+   ================================================== */
+
+@media (max-width: 768px) {
+    /* Typography */
+    h1 {
+        font-size: 2rem;
+    }
+    
+    h2 {
+        font-size: 1.75rem;
+    }
+    
+    h3 {
+        font-size: 1.5rem;
+    }
+    
+    /* Hero Section */
+    .hero-section {
+        min-height: 500px;
+    }
+    
+    .hero-title {
+        font-size: 2.5rem;
+    }
+    
+    .hero-tagline {
+        font-size: 1.25rem;
+    }
+    
+    .hero-subtitle {
+        font-size: 1rem;
+    }
+    
+    .hero-buttons {
+        flex-direction: column;
+        align-items: stretch;
+    }
+    
+    .hero-buttons .btn {
+        width: 100%;
+    }
+    
+    /* Stats */
+    .experience-stats {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+    }
+    
+    .stat-item {
+        padding: 1.5rem;
+    }
+    
+    .stat-number {
+        font-size: 2.5rem;
+    }
+    
+    /* Services */
+    .services-grid,
+    .services-container {
+        grid-template-columns: 1fr;
+    }
+    
+    /* Projects */
+    .projects-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    /* Features */
+    .features-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    /* Testimonials */
+    .testimonial-content {
+        padding: 2rem 1.5rem;
+    }
+    
+    .testimonial-text {
+        font-size: 1rem;
+    }
+    
+    .testimonial-author {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    /* Contact Info */
+    .contact-info-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    /* Forms */
+    .neo-steel-form {
+        padding: 2rem 1.5rem;
+    }
+    
+    .forms-tabs {
+        flex-direction: column;
+    }
+    
+    .tab-btn {
+        width: 100%;
+    }
+    
+    /* Values Grid */
+    .values-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    /* Certifications */
+    .certifications-content {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    /* Sectors */
+    .sectors-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    /* Info Grid */
+    .info-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    /* CTA Buttons */
+    .cta-buttons {
+        flex-direction: column;
+        align-items: stretch;
+    }
+    
+    .cta-buttons .btn {
+        width: 100%;
+    }
+    
+    /* Footer */
+    .footer-content {
+        grid-template-columns: 1fr;
+    }
+    
+    .footer-widget {
+        text-align: center;
+    }
+    
+    .social-links {
+        justify-content: center;
+    }
+    
+    /* Project Filters */
+    .project-filters {
+        justify-content: stretch;
+    }
+    
+    .filter-btn {
+        flex: 1;
+        min-width: 150px;
+    }
+}
+
+/* ==================================================
+   Small Mobile (576px)
+   ================================================== */
+
+@media (max-width: 576px) {
+    /* Base Spacing */
+    :root {
+        --spacing-sm: 0.75rem;
+        --spacing-md: 1.5rem;
+        --spacing-lg: 2rem;
+        --spacing-xl: 3rem;
+    }
+    
+    /* Typography */
+    h1 {
+        font-size: 1.75rem;
+    }
+    
+    h2 {
+        font-size: 1.5rem;
+    }
+    
+    h3 {
+        font-size: 1.25rem;
+    }
+    
+    /* Hero */
+    .hero-section {
+        min-height: 400px;
+    }
+    
+    .hero-title {
+        font-size: 2rem;
+    }
+    
+    .hero-tagline {
+        font-size: 1rem;
+        letter-spacing: 1px;
+    }
+    
+    .hero-subtitle {
+        font-size: 0.875rem;
+    }
+    
+    .btn-large {
+        padding: 1rem 1.5rem;
+        font-size: 1rem;
+    }
+    
+    /* Stats */
+    .experience-stats {
+        grid-template-columns: 1fr;
+    }
+    
+    .stat-number {
+        font-size: 2rem;
+    }
+    
+    .stat-label {
+        font-size: 1rem;
+    }
+    
+    /* Services */
+    .service-icon {
+        font-size: 2.5rem;
+    }
+    
+    .service-item,
+    .service-card {
+        padding: 1.5rem;
+    }
+    
+    /* Projects */
+    .project-image img {
+        height: 200px;
+    }
+    
+    .project-content {
+        padding: 1rem;
+    }
+    
+    /* Features */
+    .feature-icon {
+        font-size: 2.5rem;
+    }
+    
+    .feature-item {
+        padding: 1.5rem;
+    }
+    
+    /* Testimonials */
+    .testimonials-slider {
+        margin: 1rem 0;
+    }
+    
+    .testimonial-item {
+        padding: 1rem;
+    }
+    
+    .testimonial-content {
+        padding: 1.5rem;
+    }
+    
+    .testimonial-quote {
+        font-size: 2rem;
+    }
+    
+    .testimonial-text {
+        font-size: 0.9375rem;
+    }
+    
+    .author-image {
+        width: 50px;
+        height: 50px;
+    }
+    
+    .testimonials-nav button {
+        width: 40px;
+        height: 40px;
+    }
+    
+    /* Contact */
+    .contact-icon {
+        font-size: 2rem;
+    }
+    
+    .contact-info-item {
+        padding: 1.5rem;
+    }
+    
+    /* Forms */
+    .neo-steel-form {
+        padding: 1.5rem 1rem;
+    }
+    
+    .form-group input,
+    .form-group select,
+    .form-group textarea {
+        padding: 0.75rem;
+    }
+    
+    /* Mission/Vision */
+    .mission-box,
+    .vision-box {
+        padding: 2rem 1.5rem;
+    }
+    
+    .icon-wrapper {
+        font-size: 3rem;
+    }
+    
+    /* Values */
+    .value-item {
+        padding: 1.5rem;
+    }
+    
+    .value-item i {
+        font-size: 2.5rem;
+    }
+    
+    /* Certifications */
+    .certifications-content {
+        grid-template-columns: 1fr;
+    }
+    
+    .cert-item {
+        padding: 1.5rem;
+    }
+    
+    .cert-item i {
+        font-size: 2.5rem;
+    }
+    
+    /* Sectors */
+    .sectors-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .sector-item {
+        padding: 1.5rem;
+    }
+    
+    .sector-item i {
+        font-size: 2.5rem;
+    }
+    
+    /* Info Boxes */
+    .info-box {
+        padding: 1.5rem;
+    }
+    
+    /* Map */
+    .map-placeholder {
+        height: 300px;
+    }
+    
+    .map-content i {
+        font-size: 3rem;
+    }
+    
+    /* Project Details */
+    .project-details-box,
+    .project-cta-box {
+        padding: 1.5rem;
+    }
+    
+    /* Breadcrumbs */
+    .breadcrumbs {
+        flex-wrap: wrap;
+    }
+    
+    /* Error 404 */
+    .error-icon i {
+        font-size: 3rem;
+    }
+    
+    .error-title {
+        font-size: 4rem;
+    }
+    
+    .quick-links-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    /* Search Results */
+    .result-thumbnail {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+    
+    .search-result-item {
+        flex-direction: column;
+    }
+    
+    /* Project Filters */
+    .filter-btn {
+        padding: 0.5rem 1rem;
+        font-size: 0.875rem;
+    }
+}
+
+/* ==================================================
+   Extra Small Mobile (400px)
+   ================================================== */
+
+@media (max-width: 400px) {
+    .hero-title {
+        font-size: 1.5rem;
+    }
+    
+    .hero-tagline {
+        font-size: 0.875rem;
+    }
+    
+    .stat-number {
+        font-size: 1.75rem;
+    }
+    
+    .btn {
+        padding: 0.75rem 1rem;
+        font-size: 0.9375rem;
+    }
+    
+    .btn-large {
+        padding: 0.875rem 1.25rem;
+        font-size: 0.9375rem;
+    }
+}
+
+/* ==================================================
+   Landscape Mobile Optimization
+   ================================================== */
+
+@media (max-height: 500px) and (orientation: landscape) {
+    .hero-section {
+        min-height: auto;
+        padding: 3rem 0;
+    }
+    
+    .hero-title {
+        font-size: 2rem;
+    }
+    
+    .hero-tagline {
+        font-size: 1rem;
+    }
+    
+    .hero-subtitle {
+        font-size: 0.875rem;
+        margin-bottom: 1rem;
+    }
+}
+
+/* ==================================================
+   Print Styles
+   ================================================== */
+
+@media print {
+    .site-header,
+    .site-footer,
+    .hero-buttons,
+    .cta-buttons,
+    .testimonials-nav,
+    .filter-btn,
+    .mobile-menu-toggle,
+    .social-links,
+    .forms-tabs {
+        display: none;
+    }
+    
+    body {
+        font-size: 12pt;
+        color: #000;
+        background: #fff;
+    }
+    
+    a {
+        color: #000;
+        text-decoration: underline;
+    }
+    
+    .section {
+        page-break-inside: avoid;
+    }
+}
+
+/* ==================================================
+   Dark Mode Support (Optional)
+   ================================================== */
+
+@media (prefers-color-scheme: dark) {
+    /* Add dark mode styles if needed */
+}
+
+/* ==================================================
+   Reduced Motion Support
+   ================================================== */
+
+@media (prefers-reduced-motion: reduce) {
+    * {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+    }
+    
+    .animate-fade-in,
+    .animate-fade-in-delay,
+    .animate-fade-in-delay-2,
+    .animate-fade-in-delay-3 {
+        animation: none;
+        opacity: 1;
+        transform: none;
+    }
+}
+
+/* ==================================================
+   High Contrast Mode Support
+   ================================================== */
+
+@media (prefers-contrast: high) {
+    .btn {
+        border: 2px solid currentColor;
+    }
+    
+    .project-overlay {
+        background: rgba(0, 0, 0, 0.9);
+    }
+}
